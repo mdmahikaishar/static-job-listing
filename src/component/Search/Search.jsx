@@ -1,8 +1,7 @@
 import React, { useContext, useEffect, useRef, useState } from "react";
 import { AppContext } from "../../context/App";
 import { Btn } from "../index";
-import img from "../../asset/img";
-import "./Search.css";
+import "./Search.scss";
 
 export default function Search() {
     const appContext = useContext(AppContext);
@@ -53,7 +52,7 @@ export default function Search() {
                 {keywords.map((item, index) => (
                     <div className="searchKeyword" key={index}>
                         <p className="searchKeywordName">{item}</p>
-                        <Btn className="searchKeywordRemove" icon={img.iconRemove} onClick={() => fRemove(index)} />
+                        <Btn className="searchKeywordRemove" icon={"/img/icon-remove.svg"} onClick={() => fRemove(index)} />
                     </div>
                 ))}
             </div>

@@ -1,13 +1,11 @@
 import React from "react";
-import { } from "../index";
-import img from "../../asset/img";
-import "./ResultItem.css";
+import "./ResultItem.scss";
 
 export default function ResultItem({ data }) {
     return (
         <article className="resultItem">
             <div className="resultLeft">
-                <img className="resultAvater" src={img[data.logo]} alt="" />
+                <img className="resultAvater" src={data.logo} alt="" />
 
                 <div className="resultInfo">
                     <div className="resultShort">

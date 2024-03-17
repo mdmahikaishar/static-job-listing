@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { AppContext } from "../../context/App";
 import { ResultItem, Search } from "../index";
-import "./Result.css";
+import "./Result.scss";
 
 export default function Result() {
     const appContext = useContext(AppContext);

@@ -5,7 +5,7 @@ const getData = () => {
         {
             id: 1,
             company: "Photosnap",
-            logo: "photosnap",
+            logo: "/img/photosnap.svg",
             new: true,
             featured: true,
             position: "Senior Frontend Developer",
@@ -20,7 +20,7 @@ const getData = () => {
         {
             id: 2,
             company: "Manage",
-            logo: "manage",
+            logo: "/img/manage.svg",
             new: true,
             featured: true,
             position: "Fullstack Developer",
@@ -35,7 +35,7 @@ const getData = () => {
         {
             id: 3,
             company: "Account",
-            logo: "account",
+            logo: "/img/account.svg",
             new: true,
             featured: false,
             position: "Junior Frontend Developer",
@@ -50,7 +50,7 @@ const getData = () => {
         {
             id: 4,
             company: "MyHome",
-            logo: "myhome",
+            logo: "/img/myhome.svg",
             new: false,
             featured: false,
             position: "Junior Frontend Developer",
@@ -65,7 +65,7 @@ const getData = () => {
         {
             id: 5,
             company: "Loop Studios",
-            logo: "loopStudios",
+            logo: "/img/loop-studios.svg",
             new: false,
             featured: false,
             position: "Software Engineer",
@@ -80,7 +80,7 @@ const getData = () => {
         {
             id: 6,
             company: "FaceIt",
-            logo: "faceit",
+            logo: "/img/faceit.svg",
             new: false,
             featured: false,
             position: "Junior Backend Developer",
@@ -95,7 +95,7 @@ const getData = () => {
         {
             id: 7,
             company: "Shortly",
-            logo: "shortly",
+            logo: "/img/shortly.svg",
             new: false,
             featured: false,
             position: "Junior Developer",
@@ -110,7 +110,7 @@ const getData = () => {
         {
             id: 8,
             company: "Insure",
-            logo: "insure",
+            logo: "/img/insure.svg",
             new: false,
             featured: false,
             position: "Junior Frontend Developer",
@@ -125,7 +125,7 @@ const getData = () => {
         {
             id: 9,
             company: "Eyecam Co.",
-            logo: "eyecamCo",
+            logo: "/img/eyecam-co.svg",
             new: false,
             featured: false,
             position: "Full Stack Engineer",
@@ -140,7 +140,7 @@ const getData = () => {
         {
             id: 10,
             company: "The Air Filter Company",
-            logo: "theAirFilterCompany",
+            logo: "/img/the-air-filter-company.svg",
             new: false,
             featured: false,
             position: "Front-end Dev",
